@@ -1,0 +1,27 @@
+.square {
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+
+#l{
+    position: fixed;
+    text-align: center;
+    top: 5%;
+
+}
+
+.pressed {
+    filter: brightness(0.6);
+    transition: filter 0.2s;
+}
+.GameOver{
+    background-color: red !important;
+}
